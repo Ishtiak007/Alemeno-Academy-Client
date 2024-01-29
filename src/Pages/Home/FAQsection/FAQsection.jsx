@@ -2,11 +2,11 @@ import FAQsectionImage from '../../../assets/image/FAQsectionImage-removebg-prev
 
 const FAQsection = () => {
     return (
-        <div>
+        <div className='my-16 bg-gradient-to-r from-violet-50 to-fuchsia-50 p-4'>
             <h1 className='text-center font-bold text-2xl'>Frequently Asked Questions </h1>
             <p className='my-3 text-center'>Most common questions asked by students and instructors</p>
-            <div className='flex justify-evenly items-center'>
-                <div className='w-2/3'>
+            <div className='lg:flex justify-evenly items-center'>
+                <div className='lg:w-2/3'>
                     <div className="join join-vertical w-full">
                         <div className="collapse collapse-arrow join-item border border-base-300">
                             <input type="radio" name="my-accordion-4" checked="checked" />

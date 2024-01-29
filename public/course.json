@@ -1,0 +1,463 @@
+[
+    {
+        "name":"Introduction to React Native",
+        "instructor":"John Doe",
+        "description":"Learn the basics of React Native development and build your first mobile app",
+        "enrollmentStatus":"Open",
+        "thumbnail":"https://i.ibb.co/ZT2QsfW/React-Native-Img.png",
+        "duration":"8 weeks",
+        "schedule":"Tuesdays and Thursdays, 6:00 pm - 8:00 pm",
+        "location":"Online",
+        "price":"150 $",
+        "prerequisites": [
+            "Basic JavaScript knowledge","Familiarity with React"
+        ],
+        "syllabus": [
+            {
+                "week":"1",
+                "topic":"Introduction to React Native",
+                "content":"Overview of React Native, setting up your development environment."
+            },
+            {
+                "week":"2",
+                "topic":"Buillding your First App",
+                "content":"Creating a simple mobile app using React Native components"
+            },
+            {
+                "week":"3",
+                "topic":"Setting Up Your Development Environment",
+                "content":"Steps to install and configure the necessary tools, including Node.js, npm, and React Native CLI"
+            },
+            {
+                "week":"4",
+                "topic":"Building Your First React Native App",
+                "content":"A hands-on tutorial guiding users through the process of creating a simple mobile app using React Native"
+            },
+            {
+                "week":"5",
+                "topic":"React Basics for React Native",
+                "content":"An introduction or review of fundamental React concepts, such as components, state, and props, and how they apply to React Native development."
+            },
+            {
+                "week":"6",
+                "topic":"Styling in React Native",
+                "content":"Exploring the different ways to style components in React Native, including inline styles, external stylesheets, and the use of popular styling libraries."
+            },
+            {
+                "week":"7",
+                "topic":"Handling User Input and Events",
+                "content":"How to capture and respond to user interactions in a React Native application, covering topics like forms, buttons, and touch events." 
+            },
+            {
+                "week":"8",
+                "topic":"Navigating Between Screens",
+                "content":"An overview of navigation options in React Native, including stack navigation, tab navigation, and drawer navigation, to create multi-screen applications."
+            }
+        ],
+        "student":[
+            {
+                "id":"101",
+                "name":"Alice johnson",
+                "email":"alice@example.com"
+            },
+            {
+                "id":"102",
+                "name":"Hubair All Sabbir",
+                "email":"hubair@example.com"
+            },
+            {
+                "id":"103",
+                "name":"Rakib Hossain",
+                "email":"rakib@example.com"
+            },
+            {
+                "id":"104",
+                "name":"Rabid Kabir",
+                "email":"kabir@example.com"
+            },
+            {
+                "id":"105",
+                "name":"Umar Bin Javed",
+                "email":"umar@example.com"
+            }
+        ]
+    },
+    {
+        "name": "Web Development",
+        "instructor": "Ishtiak Ahmed",
+        "description": "Explore the world of web development and master the skills needed to create dynamic and interactive websites.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://i.ibb.co/dpj0xgL/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png",
+        "duration": "15 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:30 pm - 8:30 pm",
+        "location": "Online",
+        "price":"160 $",
+        "prerequisites": [
+          "Basic understanding of HTML and CSS",
+          "Familiarity with JavaScript"
+        ],
+        "syllabus": [
+          {
+            "week": "1",
+            "topic": "Introduction to Web Development",
+            "content": "Overview of web development, understanding the role of HTML, CSS, and JavaScript."
+          },
+          {
+            "week": "2",
+            "topic": "Building Your First Website",
+            "content": "Hands-on session creating a simple website using HTML and CSS."
+          },
+          {
+            "week": "3",
+            "topic": "Setting Up Your Development Environment",
+            "content": "Guidance on installing and configuring tools for efficient web development."
+          },
+          {
+            "week": "4",
+            "topic": "JavaScript Fundamentals",
+            "content": "An in-depth look at JavaScript basics, including variables, functions, and control structures."
+          },
+          {
+            "week": "5",
+            "topic": "Responsive Web Design",
+            "content": "Learn techniques for creating responsive designs that adapt to different screen sizes."
+          },
+          {
+            "week": "6",
+            "topic": "Frontend Frameworks",
+            "content": "Introduction to popular frontend frameworks like React or Vue.js for building modern web applications."
+          },
+          {
+            "week": "7",
+            "topic": "Backend Development",
+            "content": "Understanding server-side development and backend technologies."
+          },
+          {
+            "week": "8",
+            "topic": "Database Integration",
+            "content": "Explore the integration of databases to store and retrieve data for web applications."
+          },
+          {
+            "week": "9",
+            "topic": "APIs and RESTful Services",
+            "content": "Learn about APIs and how to integrate RESTful services into your web applications."
+          },
+          {
+            "week": "10",
+            "topic": "Web Security",
+            "content": "Understanding common web security practices to protect your applications."
+          },
+          {
+            "week": "11",
+            "topic": "Version Control with Git",
+            "content": "Introduction to version control using Git for collaborative web development."
+          },
+          {
+            "week": "12",
+            "topic": "Deployment Strategies",
+            "content": "Learn different strategies for deploying web applications to production environments."
+          },
+          {
+            "week": "13",
+            "topic": "Web Performance Optimization",
+            "content": "Techniques to optimize web performance for a seamless user experience."
+          },
+          {
+            "week": "14",
+            "topic": "Web Development Best Practices",
+            "content": "Explore best practices in web development for clean and maintainable code."
+          },
+          {
+            "week": "15",
+            "topic": "Capstone Project",
+            "content": "Apply all learned skills in a final project to create a complete web application."
+          }
+        ],
+        "students": [
+          {
+            "id": "201",
+            "name": "John Smith",
+            "email": "john@example.com"
+          },
+          {
+            "id": "202",
+            "name": "Jane Doe",
+            "email": "jane@example.com"
+          },
+          {
+            "id": "203",
+            "name": "Alex Johnson",
+            "email": "alex@example.com"
+          },
+          {
+            "id": "204",
+            "name": "Emma Brown",
+            "email": "emma@example.com"
+          },
+          {
+            "id": "205",
+            "name": "Michael Lee",
+            "email": "michael@example.com"
+          }
+        ]
+      },
+      {
+        "name": "Communication Skills",
+        "instructor": "Robin Hood",
+        "description": "Enhance your communication skills and become an effective communicator in various personal and professional settings.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://i.ibb.co/XSLjQYZ/skill.png",
+        "duration": "6 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:30 pm - 8:30 pm",
+        "location": "Online/In-Person",
+        "price":"170 $",
+        "prerequisites": [
+          "None"
+        ],
+        "syllabus": [
+          {
+            "week": "1",
+            "topic": "Introduction to Communication",
+            "content": "Understanding the fundamentals of communication, its importance, and key elements."
+          },
+          {
+            "week": "2",
+            "topic": "Verbal Communication",
+            "content": "Improving verbal communication skills, including clarity, tone, and effective expression."
+          },
+          {
+            "week": "3",
+            "topic": "Non-Verbal Communication",
+            "content": "Exploring non-verbal cues, body language, and gestures in effective communication."
+          },
+          {
+            "week": "4",
+            "topic": "Listening Skills",
+            "content": "Developing active listening skills and understanding the role of empathy in communication."
+          },
+          {
+            "week": "5",
+            "topic": "Written Communication",
+            "content": "Enhancing written communication skills, including email etiquette and business writing."
+          },
+          {
+            "week": "6",
+            "topic": "Public Speaking",
+            "content": "Building confidence in public speaking, structuring speeches, and engaging an audience."
+          }
+        ],
+        "students": [
+          {
+            "id": "301",
+            "name": "Alice Smith",
+            "email": "alice@example.com"
+          },
+          {
+            "id": "302",
+            "name": "Bob Johnson",
+            "email": "bob@example.com"
+          },
+          {
+            "id": "303",
+            "name": "Caroline Brown",
+            "email": "caroline@example.com"
+          },
+          {
+            "id": "304",
+            "name": "David Lee",
+            "email": "david@example.com"
+          },
+          {
+            "id": "305",
+            "name": "Eva Miller",
+            "email": "eva@example.com"
+          },
+          {
+            "id": "306",
+            "name": "Frank White",
+            "email": "frank@example.com"
+          },
+          {
+            "id": "307",
+            "name": "Grace Davis",
+            "email": "grace@example.com"
+          },
+          {
+            "id": "308",
+          "name": "Henry Wilson",
+          "email": "henry@example.com"
+          },
+          {
+            "id": "309",
+            "name": "Ivy Taylor",
+            "email": "ivy@example.com"
+          },
+          {
+            "id": "310",
+            "name": "Jack Anderson",
+            "email": "jack@example.com"
+          }
+        ]
+      },
+      {
+        "name": "Digital Marketing",
+        "instructor": "Tasfia Rahman",
+        "description": "Explore the world of digital marketing and master strategies to promote products or services online.",
+        "enrollmentStatus": "Open",
+        "thumbnail": "https://i.ibb.co/wBFLzsG/digital-marketing-search-engine-optimization-marketing-content-thumbnail.jpg",
+        "duration": "6 weeks",
+        "schedule": "Tuesdays and Thursdays, 6:30 pm - 8:30 pm",
+        "location": "Online",
+        "price":"180 $",
+        "prerequisites": [
+          "Basic understanding of marketing concepts"
+        ],
+        "syllabus": [
+          {
+            "week": "1",
+            "topic": "Introduction to Digital Marketing",
+            "content": "Overview of digital marketing, understanding key concepts and channels."
+          },
+          {
+            "week": "2",
+            "topic": "Website and Content Strategy",
+            "content": "Creating an effective website and developing content strategies for digital marketing."
+          },
+          {
+            "week": "3",
+            "topic": "Search Engine Optimization (SEO)",
+            "content": "Optimizing websites for search engines to improve visibility and ranking."
+          },
+          {
+            "week": "4",
+            "topic": "Social Media Marketing",
+            "content": "Utilizing social media platforms for marketing, creating engaging content, and running campaigns."
+          },
+          {
+            "week": "5",
+            "topic": "Email Marketing",
+            "content": "Designing and implementing email marketing campaigns for effective communication with the audience."
+          },
+          {
+            "week": "6",
+            "topic": "Analytics and Performance Measurement",
+            "content": "Using analytics tools to measure the performance of digital marketing campaigns and making data-driven decisions."
+          }
+        ],
+        "students": [
+          {
+            "id": "201",
+            "name": "Zara Khan",
+            "email": "zara@example.com"
+          },
+          {
+            "id": "202",
+            "name": "Alex Brown",
+            "email": "alex@example.com"
+          },
+          {
+            "id": "203",
+            "name": "Liam Miller",
+            "email": "liam@example.com"
+          },
+          {
+            "id": "204",
+            "name": "Sophia Davis",
+            "email": "sophia@example.com"
+          },
+          {
+            "id": "205",
+            "name": "Ethan Wilson",
+            "email": "ethan@example.com"
+          },
+          {
+            "id": "206",
+            "name": "Mia Thomas",
+            "email": "mia@example.com"
+          }
+        ]
+      },
+       {
+            "name": "Graphic Design",
+            "instructor": "Fahad Ahmed Akash",
+            "description": "Explore the fundamentals of graphic design and unleash your creativity in visual communication.",
+            "enrollmentStatus": "Open",
+            "thumbnail": "https://i.ibb.co/FHW7jSc/34fdef564e8ac4b412d7434be8dd17fc.jpg",
+            "duration": "6 weeks",
+            "schedule": "Tuesdays and Thursdays, 6:30 pm - 8:30 pm",
+            "location": "Online",
+            "price":"180 $",
+            "prerequisites": [
+              "None"
+            ],
+            "syllabus": [
+              {
+                "week": "1",
+                "topic": "Introduction to Graphic Design",
+                "content": "Understanding the basics of graphic design, its principles, and its applications."
+              },
+              {
+                "week": "2",
+                "topic": "Typography and Layout",
+                "content": "Exploring the art of arranging type and designing layouts for effective visual communication."
+              },
+              {
+                "week": "3",
+                "topic": "Color Theory",
+                "content": "Understanding the psychology of colors and their application in graphic design."
+              },
+              {
+                "week": "4",
+                "topic": "Logo Design",
+                "content": "Creating unique and memorable logos, understanding the elements of successful logo design."
+              },
+              {
+                "week": "5",
+                "topic": "Illustration and Iconography",
+                "content": "Developing illustration skills and creating effective icons for various purposes."
+              },
+              {
+                "week": "6",
+                "topic": "Print and Digital Media Design",
+                "content": "Designing for both print and digital media, understanding the differences and considerations."
+              }
+            ],
+            "students": [
+              {
+                "id": "201",
+                "name": "Sophie Davis",
+                "email": "sophie@example.com"
+              },
+              {
+                "id": "202",
+                "name": "Charlie Wilson",
+                "email": "charlie@example.com"
+              },
+              {
+                "id": "203",
+                "name": "Ella Miller",
+                "email": "ella@example.com"
+              },
+              {
+                "id": "204",
+                "name": "Noah Smith",
+                "email": "noah@example.com"
+              },
+              {
+                "id": "205",
+                "name": "Ava Johnson",
+                "email": "ava@example.com"
+              },
+              {
+                "id": "206",
+                "name": "Liam Brown",
+                "email": "liam@example.com"
+              },
+              {
+                "id": "207",
+                "name": "Mia Taylor",
+                "email": "mia@example.com"
+              }
+            ]
+          }     
+]
