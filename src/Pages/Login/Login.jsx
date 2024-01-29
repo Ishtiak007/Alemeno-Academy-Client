@@ -6,6 +6,7 @@ import { FaRegEye, FaRegEyeSlash } from 'react-icons/fa';
 import SocialLogin from '../../Components/SocialLogin/SocialLogin';
 import Swal from 'sweetalert2';
 import useAuth from '../../Hooks/useAuth';
+import img from '../../assets/image/login.png'
 
 const Login = () => {
     const { signIn } = useAuth();
@@ -45,15 +46,15 @@ const Login = () => {
     return (
         <div>
             <Helmet>
-                <title>Olden Goods | Login</title>
+                <title>Alemeno Academy | Login</title>
             </Helmet>
 
             <div className="hero min-h-screen bg-gradient-to-r from-cyan-50 to-blue-50">
                 <div className="hero-content flex-col lg:flex-row">
-                    {/* <div className="lg:mr-12 lg:w-1/2">
+                    <div className="lg:mr-12 lg:w-1/2">
                         <img className="rounded-lg shadow-2xl border-8  border-sky-300 " src={img} alt="" />
-                    </div> */}
-                    <div className="card  bg-opacity-75 shadow-2xl w-full">
+                    </div>
+                    <div className="card  bg-opacity-20 shadow-2xl lg:max-w-[500px] max-w-[280px]  w-full">
                         <form onSubmit={handleLogin} className='lg:p-5 p-2'>
                             <div>
                                 <p className="py-4 text-center text-xl font-semibold text-white-900">Login Here</p>
@@ -76,14 +77,12 @@ const Login = () => {
                                 </span>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="buttonProject3">Login</button>
+                                <button className="btn bg-gradient-to-r from-cyan-500 to-blue-500 text-white  font-semibold">Login</button>
                             </div>
                             <div>
                                 <hr className="my-4" />
-                                <h1 className="text-lg font-bold text-center mt-4">You can also Login With</h1>
-                                <div className="space-y-3 my-4">
-                                    <SocialLogin></SocialLogin>
-                                </div>
+                                <h1 className="text-xl font-bold text-center mt-4">You can also Login With</h1>
+                                <SocialLogin></SocialLogin>
                             </div>
                             <div>
                                 <p className="text-base my-3 text-center">Create an account <Link to='/register' className="text-blue-600 underline">Register</Link></p>

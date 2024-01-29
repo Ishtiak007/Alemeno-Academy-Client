@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCGGCdMEWTvkzJFLSXBGvbObLEQIRe6_og",
-  authDomain: "alemeno-academy.firebaseapp.com",
-  projectId: "alemeno-academy",
-  storageBucket: "alemeno-academy.appspot.com",
-  messagingSenderId: "236403208251",
-  appId: "1:236403208251:web:862b77181c052b6afe6c1e"
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase

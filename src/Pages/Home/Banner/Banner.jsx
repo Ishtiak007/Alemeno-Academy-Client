@@ -1,5 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import bannerImg from '../../../assets/image/bannerImg.png'
+import { Link } from "react-router-dom";
 
 
 const Banner = () => {
@@ -26,7 +27,7 @@ const Banner = () => {
                             </span>
                         </p>
                     </div>
-                    <button className="bg-green-500 rounded-2xl px-5 py-2 text-white font-bold">Get Started</button>
+                    <Link to='/register'><button className="bg-green-500 rounded-2xl px-5 py-2 text-white font-bold">Get Started</button></Link>
                     <button className="bg-white border-[1px] border-green-500 rounded-2xl px-5 py-2 text-gray-500 font-bold mx-5">View Courses</button>
                 </div>
             </div>

@@ -27,7 +27,7 @@ const Navbar = () => {
                             {navOptinons}
                         </ul>
                     </div>
-                    <div className=""><span className="text-black text-xl font-bold">Alemeno</span><span className="text-green-500 text-xl font-bold">Academy</span></div>
+                    <div className=""><span className="text-black text-xl lg:font-bold">Alemeno</span><span className="text-green-500 text-xl font-bold">Academy</span></div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
