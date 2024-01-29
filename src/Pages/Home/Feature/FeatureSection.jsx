@@ -2,7 +2,7 @@
 
 const FeatureSection = ({ img, heading, paragraph }) => {
     return (
-        <div className="flex justify-evenly items-center gap-4 border-2 border-green-300 bg-green-50 p-2 rounded-md">
+        <div className="flex justify-evenly items-center gap-4 border-2 border-green-200 bg-blue-50 p-2 rounded-md">
             <div>
                 <figure><img src={img} alt="Shoes" /></figure>
             </div>
