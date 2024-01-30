@@ -5,11 +5,12 @@ import Swal from 'sweetalert2';
 import useAuth from '../../Hooks/useAuth';
 import { useForm } from 'react-hook-form';
 import img from '../../assets/image/login.png'
+import useAxiosPublic from '../../Hooks/useAxiosPublic';
 
 const Register = () => {
     const { createUser, updateUserProfile } = useAuth();
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
-    // const axiosPublic = useAxiosPublic();
+    const axiosPublic = useAxiosPublic();
     const navigate = useNavigate();
     const location = useLocation();
     const [showPassword, setShowPassword] = useState(false)

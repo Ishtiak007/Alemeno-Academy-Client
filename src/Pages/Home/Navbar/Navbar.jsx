@@ -1,16 +1,34 @@
 import { Link } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
+import useAuth from "../../../Hooks/useAuth";
+import Swal from "sweetalert2";
 
 
 const Navbar = () => {
-    const user = false;
+    const { user, logOut } = useAuth();
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => {
+                Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Log out successfully",
+                    showConfirmButton: false,
+                    timer: 1500
+                });
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    }
 
     const navOptinons = <>
         <li className="font-bold"><Link to='/'>Home</Link></li>
         <li className="font-bold"><Link to='/courseCategories'>Course Categories</Link></li>
         <li className="font-bold"><Link to='/dashboard'>Dashboard</Link></li>
         {
-            user ? <><li className="font-bold"><Link>LogOut</Link></li> </> :
+            user ? <><li onClick={handleLogOut} className="font-bold"><Link>LogOut</Link></li> </> :
                 <><li className="font-bold"><Link to='/login'>Login</Link></li></>
         }
     </>

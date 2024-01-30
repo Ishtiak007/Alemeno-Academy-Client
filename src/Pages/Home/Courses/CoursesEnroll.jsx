@@ -7,12 +7,12 @@ const CoursesEnroll = ({ id, name, thumbnail, instructor, enrollmentStatus, dura
 
             <div className="lg:col-span-2 p-3">
                 <h1 className="text-2xl font-bold text-center">Course : {name}</h1>
-                <div className='my-5 lg:w-1/2 border-2 p-4 mx-auto'>
+                <div className='my-5 border-2 p-4 mx-auto rounded-md'>
                     <h2 className="font-bold text-xl">Instructor : {instructor} </h2>
                     <p className="text-base font-medium my-2">Course ID : {id}</p>
                 </div>
 
-                <div className='my-5 lg:w-1/2 border-2 p-4 mx-auto'>
+                <div className='my-5 border-2 p-4 mx-auto rounded-md'>
                     <h1 className='text-xl font-bold'>Prerequisites</h1>
                     <ul>
                         {prerequisites.map((prerequisite, index) => (
@@ -21,7 +21,7 @@ const CoursesEnroll = ({ id, name, thumbnail, instructor, enrollmentStatus, dura
                     </ul>
                 </div>
 
-                <div className='my-5 border-2 p-4 mx-auto'>
+                <div className='my-5 border-2 p-4 mx-auto rounded-md'>
                     <div>
                         <h2 className='text-xl font-bold text-center'>Course Syllabus</h2>
                         <ul>

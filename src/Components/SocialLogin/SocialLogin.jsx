@@ -3,8 +3,10 @@ import useAuth from '../../Hooks/useAuth';
 import { useNavigate } from 'react-router-dom';
 import googleLogo from '../../assets/image/googleLogo.png'
 import Swal from 'sweetalert2';
+import useAxiosPublic from '../../Hooks/useAxiosPublic';
 
 const SocialLogin = () => {
+    const axiosPublic = useAxiosPublic();
 
 
     const { googleSignIn } = useAuth();
