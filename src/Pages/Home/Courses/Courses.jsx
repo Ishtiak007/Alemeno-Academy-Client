@@ -13,14 +13,14 @@ const Courses = () => {
     const digitalMarketing = courses.filter(item => item.name === 'Digital Marketing')
     const graphicDesign = courses.filter(item => item.name === 'Graphic Design')
     return (
-        <div>
+        <div className="p-3">
             <div>
                 <h1 className="text-3xl font-bold text-center">Discover top courses.</h1>
                 <p className="text-center my-2">Select the course of your choice and begin your online learning journey</p>
             </div>
             <div className="mt-5">
                 <Tabs>
-                    <TabList className="mx-auto text-center space-x-5 bg-gradient-to-r from-sky-50 to-indigo-50 p-3">
+                    <TabList className="mx-auto text-center space-x-5 bg-gradient-to-r from-sky-100 to-indigo-50 p-3 rounded-2xl">
                         <Tab>React Native</Tab>
                         <Tab>Web Development</Tab>
                         <Tab>Communication Skills</Tab>

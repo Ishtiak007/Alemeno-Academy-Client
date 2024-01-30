@@ -1,11 +1,11 @@
-import { FaShoppingCart } from "react-icons/fa";
+
 
 
 const AllCoursesCard = ({ item }) => {
-    const { name, instructor, description, enrollmentStatus, thumbnail, duration, location, price } = item
+    const { name, instructor, description, thumbnail, duration, price } = item
     return (
         <div>
-            <div className="card card-compact lg:w-[340px] bg-base-100 shadow-2xl">
+            <div className="card card-compact lg:w-[340px] bg-gradient-to-r from-blue-100 to-indigo-50 shadow-2xl">
                 <figure><img className="w-full h-60" src={thumbnail} alt="Shoes" /></figure>
                 <div className="card-body flex-col h-[260px]">
                     <div className="flex justify-between">
@@ -20,8 +20,7 @@ const AllCoursesCard = ({ item }) => {
                     <div className="my-2">
                         <h1 className="text-base font-medium">Instructor : {instructor}</h1>
                     </div>
-                    <button
-                        className="buttonProject3 w-full">More Details</button>
+                    <button className="buttonProject3 w-full">More Details</button>
                 </div>
             </div>
         </div>
