@@ -8,6 +8,8 @@ import Register from "../Pages/Register/Register";
 import Courses from "../Pages/Home/Courses/Courses";
 import CoursesDetails from "../Pages/Home/Courses/CoursesDetails";
 import PrivateRoutes from "../Components/PrivateRoutes/PrivateRoutes";
+import Dashboard from "../Layout/Dashboard";
+import Cart from "../Pages/Cart/Cart";
 
 export const router = createBrowserRouter([
     {
@@ -37,4 +39,23 @@ export const router = createBrowserRouter([
             }
         ]
     },
+    {
+        path: 'dashboard',
+        element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>,
+        children: [
+            // e gulo normal user routes
+            {
+                path: 'cart',
+                element: <Cart></Cart>
+            },
+            // {
+            //     path: 'payment',
+            //     element: <Payment></Payment>
+            // },
+            // {
+            //     path: 'paymentHistory',
+            //     element: <PaymentHistory></PaymentHistory>
+            // },
+        ]
+    }
 ]);

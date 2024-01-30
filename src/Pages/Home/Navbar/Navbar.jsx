@@ -26,7 +26,7 @@ const Navbar = () => {
     const navOptinons = <>
         <li className="font-bold"><Link to='/'>Home</Link></li>
         <li className="font-bold"><Link to='/courseCategories'>Course Categories</Link></li>
-        <li className="font-bold"><Link to='/dashboard'>Dashboard</Link></li>
+        <li className="font-bold"><Link to='/dashboard/cart'>Dashboard</Link></li>
         {
             user ? <><li onClick={handleLogOut} className="font-bold"><Link>LogOut</Link></li> </> :
                 <><li className="font-bold"><Link to='/login'>Login</Link></li></>

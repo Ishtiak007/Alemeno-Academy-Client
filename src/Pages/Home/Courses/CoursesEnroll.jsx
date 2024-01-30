@@ -1,6 +1,61 @@
 import { FaCheck } from 'react-icons/fa';
+import { useLocation, useNavigate } from 'react-router-dom';
+import useAxiosSecure from '../../../Hooks/useAxiosSecure';
+import useCarts from '../../../Hooks/useCarts';
+import useAuth from '../../../Hooks/useAuth';
+import Swal from 'sweetalert2';
 
 const CoursesEnroll = ({ id, name, thumbnail, instructor, enrollmentStatus, duration, schedule, location, price, prerequisites, syllabus }) => {
+
+    const { user } = useAuth();
+    const navigate = useNavigate();
+    const location2 = useLocation();
+    const axiosSecure = useAxiosSecure();
+    const [, refetch] = useCarts();
+
+    const handleAddToCart = () => {
+        if (user && user.email) {
+
+            const cartItem = {
+                courseId: id,
+                email: user.email,
+                name,
+                thumbnail,
+                price,
+                instructor
+            }
+            axiosSecure.post('/carts', cartItem)
+                .then(res => {
+                    console.log(res.data)
+                    if (res.data.insertedId) {
+                        Swal.fire({
+                            position: "center",
+                            icon: "success",
+                            title: `${name} added to your Dashboard cart`,
+                            showConfirmButton: false,
+                            timer: 1500
+                        });
+                        refetch();
+                    }
+                })
+        }
+        else {
+            Swal.fire({
+                title: "You are not login",
+                text: "Please Log In first to Add to Cart",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Yes,Login"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    navigate('/login', { state: { from: location2 } })
+                }
+            });
+        }
+    }
+
     return (
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-6 bg-gradient-to-r from-cyan-50 to-blue-50">
 
@@ -61,7 +116,7 @@ const CoursesEnroll = ({ id, name, thumbnail, instructor, enrollmentStatus, dura
                             <p className='text-sm font-bold'>{schedule}</p>
                             <p className='text-sm font-bold mt-2'>Enrollment Status : {enrollmentStatus}</p>
                         </div>
-                        <button className="buttonProject3 w-full my-5">Enroll Now</button>
+                        <button onClick={handleAddToCart} className="buttonProject3 w-full my-5">Enroll Now for add to cart</button>
                     </div>
                 </div>
             </div>
