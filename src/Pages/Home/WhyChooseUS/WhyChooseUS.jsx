@@ -9,12 +9,12 @@ import StatisticsCard from './StatisticsCard';
 
 const WhyChooseUS = () => {
     return (
-        <div className='my-10 bg-gradient-to-r from-sky-50 to-blue-50'>
+        <div className='my-10 bg-gradient-to-r from-violet-50 to-fuchsia-50 p-3'>
             <div className="my-6">
                 <h1 className="text-2xl font-bold text-center my-2">What sets us apart?</h1>
                 <p className='text-center text-sm'>Transforming futures through a single click. <br /> Uncover excellence through tailored learning, skilled educators, and seamless technology. Join us in reshaping the future of education.</p>
             </div>
-            <div className='flex justify-evenly items-center my-5'>
+            <div className='lg:flex justify-evenly items-center my-5'>
                 <div className='flex-1'>
                     <img className='w-[260px] mx-auto border-b-2 border-black' src={whyImg} alt="" />
                 </div>

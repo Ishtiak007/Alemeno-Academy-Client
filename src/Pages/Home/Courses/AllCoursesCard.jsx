@@ -5,9 +5,9 @@ const AllCoursesCard = ({ item }) => {
     const { name, instructor, description, thumbnail, duration, price } = item
     return (
         <div>
-            <div className="card card-compact lg:w-[340px] bg-gradient-to-r from-blue-100 to-indigo-50 shadow-2xl">
+            <div className="card card-compact lg:w-[340px] bg-gradient-to-r from-blue-100 to-indigo-50 shadow-2xl mt-2">
                 <figure><img className="w-full h-60" src={thumbnail} alt="Shoes" /></figure>
-                <div className="card-body flex-col h-[260px]">
+                <div className="card-body flex-col lg:h-[260px]">
                     <div className="flex justify-between">
                         <div className="badge badge-warning badge-outline">{price}</div>
                         <div className="badge badge-accent badge-outline">Duration : {duration}</div>

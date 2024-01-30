@@ -5,6 +5,7 @@ import FAQsection from "../FAQsection/FAQsection";
 import Courses from "../Courses/Courses";
 import WhyChooseUS from "../WhyChooseUS/WhyChooseUS";
 import Testimonial from "../Testimonial/Testimonial";
+import Sponsor from "../Sponsor/Sponsor";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <WhyChooseUS></WhyChooseUS>
             <FAQsection></FAQsection>
             <Testimonial></Testimonial>
+            <Sponsor></Sponsor>
         </div>
     );
 };
