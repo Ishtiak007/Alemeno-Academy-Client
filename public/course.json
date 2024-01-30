@@ -83,6 +83,89 @@
         ]
     },
     {
+      "name":"Introduction to React Native",
+      "instructor":"Tarik Bin Sabbir",
+      "description":"Learn the basics of React Native development and build your first mobile app",
+      "enrollmentStatus":"Open",
+      "thumbnail":"https://i.ibb.co/T07hQVh/nativ2.jpg",
+      "duration":"8 weeks",
+      "schedule":"Saturday to Thursdays, 7:00 pm - 9:00 pm",
+      "location":"Online",
+      "price":"140 $",
+      "prerequisites": [
+          "Basic JavaScript knowledge","Familiarity with React"
+      ],
+      "syllabus": [
+          {
+              "week":"1",
+              "topic":"Introduction to React Native",
+              "content":"Overview of React Native, setting up your development environment."
+          },
+          {
+              "week":"2",
+              "topic":"Buillding your First App",
+              "content":"Creating a simple mobile app using React Native components"
+          },
+          {
+              "week":"3",
+              "topic":"Setting Up Your Development Environment",
+              "content":"Steps to install and configure the necessary tools, including Node.js, npm, and React Native CLI"
+          },
+          {
+              "week":"4",
+              "topic":"Building Your First React Native App",
+              "content":"A hands-on tutorial guiding users through the process of creating a simple mobile app using React Native"
+          },
+          {
+              "week":"5",
+              "topic":"React Basics for React Native",
+              "content":"An introduction or review of fundamental React concepts, such as components, state, and props, and how they apply to React Native development."
+          },
+          {
+              "week":"6",
+              "topic":"Styling in React Native",
+              "content":"Exploring the different ways to style components in React Native, including inline styles, external stylesheets, and the use of popular styling libraries."
+          },
+          {
+              "week":"7",
+              "topic":"Handling User Input and Events",
+              "content":"How to capture and respond to user interactions in a React Native application, covering topics like forms, buttons, and touch events." 
+          },
+          {
+              "week":"8",
+              "topic":"Navigating Between Screens",
+              "content":"An overview of navigation options in React Native, including stack navigation, tab navigation, and drawer navigation, to create multi-screen applications."
+          }
+      ],
+      "student":[
+          {
+              "id":"1011",
+              "name":"Parker johnson",
+              "email":"parker@example.com"
+          },
+          {
+              "id":"1022",
+              "name":"Ali Sabbir",
+              "email":"ali@example.com"
+          },
+          {
+              "id":"1033",
+              "name":"Ashraf Hossain",
+              "email":"ashraf@example.com"
+          },
+          {
+              "id":"1044",
+              "name":"Rabid Kabir",
+              "email":"kabir@example.com"
+          },
+          {
+              "id":"1055",
+              "name":"Umar Bin Javed",
+              "email":"bin@example.com"
+          }
+      ]
+  },
+    {
         "name": "Web Development",
         "instructor": "Ishtiak Ahmed",
         "description": "Explore the world of web development and master the skills needed to create dynamic and interactive websites.",

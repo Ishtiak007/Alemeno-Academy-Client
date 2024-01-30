@@ -20,7 +20,7 @@ const Courses = () => {
             </div>
             <div className="mt-5">
                 <Tabs>
-                    <TabList className="mx-auto text-center space-x-5 bg-gradient-to-r from-cyan-50 to-blue-100 p-3 rounded-2xl">
+                    <TabList className="mx-auto text-center space-x-5 bg-gradient-to-r shadow-lg shadow-blue-100 from-cyan-50 to-blue-100 p-3 rounded-2xl">
                         <Tab>React Native</Tab>
                         <Tab>Web Development</Tab>
                         <Tab>Communication Skills</Tab>
