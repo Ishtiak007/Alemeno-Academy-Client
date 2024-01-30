@@ -42,16 +42,16 @@ const Cart = () => {
     return (
         <div>
             <div className="flex justify-evenly">
-                <h2 className="text-4xl">Total Items : {cart.length}</h2>
-                <h2 className="text-4xl">Total Price : {totalPrice}</h2>
+                <h2 className="text-2xl font-bold">Total Items : {cart.length}</h2>
+                <h2 className="text-2xl font-bold">Total Price : {totalPrice}</h2>
                 {
 
                     cart.length ? <Link to='/dashboard/payment'>
-                        <button className="btn btn-secondary">Pay now</button>
+                        <button className="btn buttonProject3">Pay now</button>
                     </Link>
                         :
 
-                        <button disabled className="btn btn-secondary">Pay now</button>
+                        <button disabled className="btn buttonProject3">Pay now</button>
 
                 }
             </div>
@@ -66,7 +66,7 @@ const Cart = () => {
                             <th>Thumbnail</th>
                             <th>Course Name</th>
                             <th>Price</th>
-                            <th>Action</th>
+                            <th>Inroll Cancel</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -85,12 +85,12 @@ const Cart = () => {
                                         </div>
                                     </div>
                                 </td>
-                                <td>
+                                <td className='text-lg font-bold'>
                                     {item.name}
                                 </td>
-                                <td>{item.price}</td>
+                                <td className='text-lg font-bold'>{item.price} $</td>
                                 <th>
-                                    <button onClick={() => handleDelete(item._id)} className="btn btn-ghost "><FaTrash className="text-2xl text-red-300"></FaTrash></button>
+                                    <button onClick={() => handleDelete(item._id)} className="btn btn-ghost "><FaTrash className="text-2xl text-red-500"></FaTrash></button>
                                 </th>
                             </tr>)
                         }

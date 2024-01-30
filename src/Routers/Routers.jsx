@@ -10,6 +10,8 @@ import CoursesDetails from "../Pages/Home/Courses/CoursesDetails";
 import PrivateRoutes from "../Components/PrivateRoutes/PrivateRoutes";
 import Dashboard from "../Layout/Dashboard";
 import Cart from "../Pages/Cart/Cart";
+import Payment from "../Pages/Payment/Payment";
+import PaymentHistory from "../Pages/Payment/PaymentHistory";
 
 export const router = createBrowserRouter([
     {
@@ -48,14 +50,14 @@ export const router = createBrowserRouter([
                 path: 'cart',
                 element: <Cart></Cart>
             },
-            // {
-            //     path: 'payment',
-            //     element: <Payment></Payment>
-            // },
-            // {
-            //     path: 'paymentHistory',
-            //     element: <PaymentHistory></PaymentHistory>
-            // },
+            {
+                path: 'payment',
+                element: <Payment></Payment>
+            },
+            {
+                path: 'paymentHistory',
+                element: <PaymentHistory></PaymentHistory>
+            },
         ]
     }
 ]);

@@ -53,8 +53,14 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                    <div className="mr-5">
+                        {
+                            user ? <div className="badge badge-primary badge-outline">{user.displayName}</div> : <>Login Now</>
+                        }
+                    </div>
                     <div className="avatar">
                         <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+
                             {
                                 user ? <div><img className="mr-3 w-[40px] rounded-full" src={user.photoURL} alt="" /></div> : <FaUser className='mx-auto text-3xl'></FaUser>
                             }

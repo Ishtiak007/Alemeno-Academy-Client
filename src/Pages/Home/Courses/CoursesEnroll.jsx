@@ -105,7 +105,7 @@ const CoursesEnroll = ({ id, name, thumbnail, instructor, enrollmentStatus, dura
                     <figure><img className="w-full" src={thumbnail} alt="Shoes" /></figure>
                     <div className="card-body flex-col">
                         <div className="">
-                            <h2 className="font-bold text-2xl">Price : <span className='text-green-500'>{price}</span></h2>
+                            <h2 className="font-bold text-2xl">Price : <span className='text-green-500'>{price} $</span></h2>
                         </div>
                         <div className='flex justify-between my-3'>
                             <p className="flex items-center gap-2 text-green-700 text-base font-medium">Location:{location}</p>

@@ -7,7 +7,7 @@ const Dashboard = () => {
     return (
         <div className="flex">
             {/* bashboard sidebar */}
-            <div className="w-64 min-h-screen bg-[#2c3336] text-white">
+            <div className="w-64 min-h-screen bg-[#4d585d] text-white">
                 <h1 className="text-center my-8 font-bold text-xl">User Dashboard</h1>
                 <ul className="menu space-y-5">
                     <>
@@ -25,9 +25,9 @@ const Dashboard = () => {
 
                     <hr className="my-5" />
                     <>
-                        <li className="font-bold bg-blue-800 rounded-lg"><Link to='/'>Home</Link></li>
-                        <li className="font-bold bg-blue-800 rounded-lg"><Link to='/courseCategories'>Course Categories</Link></li>
-                        <li className="font-bold bg-blue-800 rounded-lg"><Link to='/dashboard'>Dashboard</Link></li>
+                        <li className="font-bold bg-blue-600 rounded-lg"><Link to='/'>Home</Link></li>
+                        <li className="font-bold bg-blue-600 rounded-lg"><Link to='/courseCategories'>Course Categories</Link></li>
+                        <li className="font-bold bg-blue-600 rounded-lg"><Link to='/dashboard'>Dashboard</Link></li>
                     </>
                 </ul>
             </div>
