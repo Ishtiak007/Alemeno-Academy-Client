@@ -4,6 +4,7 @@ import Feature from "../Feature/Feature";
 import FAQsection from "../FAQsection/FAQsection";
 import Courses from "../Courses/Courses";
 import WhyChooseUS from "../WhyChooseUS/WhyChooseUS";
+import Testimonial from "../Testimonial/Testimonial";
 
 
 const Home = () => {
@@ -14,9 +15,10 @@ const Home = () => {
             </Helmet>
             <Banner></Banner>
             <Feature></Feature>
-            <Courses></Courses>
             <WhyChooseUS></WhyChooseUS>
+            <Courses></Courses>
             <FAQsection></FAQsection>
+            <Testimonial></Testimonial>
         </div>
     );
 };

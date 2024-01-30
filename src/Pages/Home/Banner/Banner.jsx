@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen bg-gradient-to-r from-cyan-50 to-blue-50">
+        <div className="hero min-h-screen bg-gradient-to-r from-cyan-50 to-blue-100">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="flex-1">
                     <img src={bannerImg} className="lg:max-w-sm mx-auto" />
