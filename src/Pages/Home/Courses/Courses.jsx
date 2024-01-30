@@ -13,50 +13,52 @@ const Courses = () => {
     const digitalMarketing = courses.filter(item => item.name === 'Digital Marketing')
     const graphicDesign = courses.filter(item => item.name === 'Graphic Design')
     return (
-        <div className="p-3 my-10 bg-gradient-to-r from-violet-50 to-fuchsia-50">
-            <div>
-                <h1 className="text-3xl font-bold text-center">Discover top courses.</h1>
-                <p className="text-center my-2">Select the course of your choice and begin your online learning journey</p>
-            </div>
-            <div className="mt-5">
-                <Tabs>
-                    <TabList className="mx-auto text-center space-x-7 shadow-lg bg-gradient-to-r from-violet-50 to-fuchsia-50 p-3 rounded-xl">
-                        <Tab>React Native</Tab>
-                        <Tab>Web Development</Tab>
-                        <Tab>Communication Skills</Tab>
-                        <Tab>Digital Marketing</Tab>
-                        <Tab>Graphic Design</Tab>
-                    </TabList>
-                    <TabPanel>
-                        <AllCoursesTab
-                            coursesName={reactNativ}
-                        ></AllCoursesTab>
-                    </TabPanel>
+        <div className="p-3 bg-gradient-to-r from-violet-50 to-fuchsia-50">
+            <div className="my-16">
+                <div>
+                    <h1 className="text-3xl font-bold text-center">Discover top courses.</h1>
+                    <p className="text-center my-2">Select the course of your choice and begin your online learning journey</p>
+                </div>
+                <div className="mt-5">
+                    <Tabs>
+                        <TabList className="mx-auto text-center space-x-7 shadow-lg bg-gradient-to-r from-violet-50 to-fuchsia-50 p-3 rounded-xl">
+                            <Tab>React Native</Tab>
+                            <Tab>Web Development</Tab>
+                            <Tab>Communication Skills</Tab>
+                            <Tab>Digital Marketing</Tab>
+                            <Tab>Graphic Design</Tab>
+                        </TabList>
+                        <TabPanel>
+                            <AllCoursesTab
+                                coursesName={reactNativ}
+                            ></AllCoursesTab>
+                        </TabPanel>
 
-                    <TabPanel>
-                        <AllCoursesTab
-                            coursesName={webDevelopment}
-                        ></AllCoursesTab>
-                    </TabPanel>
+                        <TabPanel>
+                            <AllCoursesTab
+                                coursesName={webDevelopment}
+                            ></AllCoursesTab>
+                        </TabPanel>
 
-                    <TabPanel>
-                        <AllCoursesTab
-                            coursesName={communicationSkills}
-                        ></AllCoursesTab>
-                    </TabPanel>
+                        <TabPanel>
+                            <AllCoursesTab
+                                coursesName={communicationSkills}
+                            ></AllCoursesTab>
+                        </TabPanel>
 
-                    <TabPanel>
-                        <AllCoursesTab
-                            coursesName={digitalMarketing}
-                        ></AllCoursesTab>
-                    </TabPanel>
+                        <TabPanel>
+                            <AllCoursesTab
+                                coursesName={digitalMarketing}
+                            ></AllCoursesTab>
+                        </TabPanel>
 
-                    <TabPanel>
-                        <AllCoursesTab
-                            coursesName={graphicDesign}
-                        ></AllCoursesTab>
-                    </TabPanel>
-                </Tabs>
+                        <TabPanel>
+                            <AllCoursesTab
+                                coursesName={graphicDesign}
+                            ></AllCoursesTab>
+                        </TabPanel>
+                    </Tabs>
+                </div>
             </div>
         </div>
     );
