@@ -37,7 +37,7 @@ export const router = createBrowserRouter([
             {
                 path: '/coursesDetails/:id',
                 element: <PrivateRoutes><CoursesDetails></CoursesDetails></PrivateRoutes>,
-                loader: ({ params }) => fetch(`http://localhost:5000/courses/${params.id}`)
+                loader: ({ params }) => fetch(`https://alemeno-academy-server.vercel.app/courses/${params.id}`)
             }
         ]
     },
